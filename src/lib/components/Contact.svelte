@@ -7,8 +7,7 @@
 	import { fade } from 'svelte/transition';
 
 	// Reactive variables to hold form feedback
-	let successMessage: string | null = null;
-	let errorMessage: string | null = null;
+	let errorMessage = $state('');
 	let name = $state('');
 	let email = $state('');
 	let phone = $state('');
@@ -40,7 +39,7 @@
 			const data = await response.json();
 
 			if (data.status === 200) {
-				errorMessage = null;
+				errorMessage = '';
 				messageSent = true;
 			} else {
 				errorMessage = 'An error occurred';
@@ -98,19 +97,5 @@
 				{/if}
 			</Card.Content>
 		</Card.Root>
-
-		<!-- Success Message -->
-		{#if successMessage}
-			<div class="mt-4 rounded bg-green-100 p-4 text-green-700">
-				{successMessage}
-			</div>
-		{/if}
-
-		<!-- Error Message -->
-		{#if errorMessage}
-			<div class="mt-4 rounded bg-red-100 p-4 text-red-700">
-				{errorMessage}
-			</div>
-		{/if}
 	</div>
 </section>
