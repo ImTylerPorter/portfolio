@@ -42,15 +42,15 @@
 	}
 </script>
 
-<header class="bg-background/80 fixed top-0 z-50 w-full border-b backdrop-blur-sm">
+<header class="fixed top-0 z-50 w-full border-b bg-background/80 backdrop-blur-sm">
 	<nav class="container flex h-16 items-center justify-between px-4 md:px-6">
-		<a href="#" class="text-xl font-bold">Tyler Porter</a>
+		<a href="/" class="text-xl font-bold">Tyler Porter</a>
 
 		<!-- Desktop Navigation -->
 		<ul class="hidden items-center gap-6 md:flex">
 			{#each navItems as item}
 				<li>
-					<a href={item.href} class="hover:text-primary transition-colors">
+					<a href={item.href} class="transition-colors hover:text-primary">
 						{item.label}
 					</a>
 				</li>
@@ -65,7 +65,7 @@
 				</Button>
 			</li>
 			<li>
-				<Button variant="default">Hire Me</Button>
+				<Button href="/2024_resume.pdf" target="_BLANK" variant="default">Hire Me</Button>
 			</li>
 		</ul>
 
