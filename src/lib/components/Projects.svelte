@@ -5,6 +5,14 @@
 
 	const projects = [
 		{
+			title: 'Dreamify',
+			description:
+				'A dream interpreter app built with SvelteKit, Drizzle, and Supabase, featuring AI-powered insights and a modern Tailwind design.',
+			tech: ['SvelteKit', 'TypeScript', 'Supabase', 'Drizzle'],
+			github: 'https://github.com/ImTylerPorter/dreamify',
+			live: 'https://dreamify-flax.vercel.app/'
+		},
+		{
 			title: 'McClinton Auto',
 			description:
 				'A full-featured CMS solution built with Svelte/SvelteKit, Drizzle, and Supabase.',
@@ -57,14 +65,6 @@
 				"Implemented a personalized CMS platform using PHP and WordPress, encompassing the complete build process to meet SearchWide Global's dynamic content management needs.",
 			tech: ['PHP', 'WordPress', 'Gutenberg', 'SASS', 'JavaScript', 'Webpack'],
 			live: 'https://searchwideglobal.com/',
-			note: 'Note: This project has been handed off to the client. Further changes may have been made post-delivery.'
-		},
-		{
-			title: 'View Israel',
-			description:
-				"Designed and built a tailored content management system with PHP and WordPress, ensuring a full-scale development that aligns with View Israel's vision and operational goals.",
-			tech: ['PHP', 'WordPress', 'Gutenberg', 'SASS', 'JavaScript', 'Webpack'],
-			live: 'https://view-israel.com/',
 			note: 'Note: This project has been handed off to the client. Further changes may have been made post-delivery.'
 		},
 		{
