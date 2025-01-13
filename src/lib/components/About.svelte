@@ -19,7 +19,7 @@
 						<p class="text-gray-500 dark:text-gray-400">
 							I’m a passionate <strong>Full Stack Developer</strong> based in the Pacific Northwest
 							with
-							<strong>12 years of experience</strong> in web development. I specialize in creating scalable
+							<strong>13 years of experience</strong> in web development. I specialize in creating scalable
 							web applications using modern technologies, empowering businesses to effectively showcase
 							their products or services and succeed in the marketplace.
 						</p>

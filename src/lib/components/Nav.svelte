@@ -91,7 +91,7 @@
 								{item.label}
 							</a>
 						{/each}
-						<Button href="/2024_resume.pdf" target="_BLANK">Hire Me</Button>
+						<Button href="/2025_resume.pdf" target="_BLANK">Hire Me</Button>
 					</nav>
 				</Sheet.Content>
 			</Sheet.Root>

@@ -10,9 +10,9 @@
 				Full Stack Developer
 			</h1>
 			<p
-				class="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400"
+				class="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 			>
-				With 12 years of experience crafting beautiful and functional web applications. Currently
+				With 13 years of experience crafting beautiful and functional web applications. Currently
 				available for new opportunities.
 			</p>
 			<div class="flex flex-col gap-4 min-[400px]:flex-row">
@@ -26,14 +26,14 @@
 				<a
 					href="https://github.com/ImTylerPorter"
 					target="_blank"
-					class="hover:text-primary transition-colors"
+					class="transition-colors hover:text-primary"
 				>
 					<Github class="h-6 w-6" />
 				</a>
 				<a
 					href="https://linkedin.com/in/ImtylerPorter"
 					target="_blank"
-					class="hover:text-primary transition-colors"
+					class="transition-colors hover:text-primary"
 				>
 					<Linkedin class="h-6 w-6" />
 				</a>
