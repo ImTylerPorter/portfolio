@@ -65,7 +65,7 @@
 				</Button>
 			</li>
 			<li>
-				<Button href="/2024_resume.pdf" target="_BLANK" variant="default">Hire Me</Button>
+				<Button href="/2025_resume.pdf" target="_BLANK" variant="default">Hire Me</Button>
 			</li>
 		</ul>
 
